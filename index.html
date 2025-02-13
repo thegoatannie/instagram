@@ -19,9 +19,6 @@
         font-size: 2em;
       }
       
-       main {
-      }
-      
       .text_header {
         height: 50px;
         font-size: 3em;
@@ -61,33 +58,137 @@
       font-size: 4em;
       width: 50vw;
     }
+    
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 10px;
+      justify-content: center;
+      width: 100%;
+      margin: auto;
+      max-height: 60vh;
+    }
+    
+    .grid-container-1 {
+      display: grid;
+      grid-auto-rows: 40vh 60vh;
+      gap: 10px;
+      justify-content: center;
+      width: 22vw;
+      margin: auto;
+    }
+    
+    .grid-container-1 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      display: block;
+    }
+    
+    .grid-container-2 {
+      display: grid;
+      grid-auto-rows: 70vh 5vh 23vh;
+      gap: 10px;
+      justify-content: center;
+      width: 22vw;
+      margin: auto;
+    }
+    
+    .grid-container-2 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      display: block;
+    }
+    
+    .grid-container-3 {
+      display: grid;
+      grid-auto-rows: 70vh 30vh;
+      gap: 10px;
+      justify-content: center;
+      width: 22vw;
+      margin: auto;
+    }
+    
+    .grid-container-3 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      display: block;
+    }
+    
+    .grid-container-4 {
+      display: grid;
+      grid-auto-rows: 28vh 10vh 60vh;
+      gap: 10px;
+      justify-content: center;
+      width: 22vw;
+      margin: auto;
+    }
+    
+    .grid-container-4 img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      display: block;
+    }
+    
+    .food {
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+    }
+  
   </style>
   
   <body>
-    <main>
-      <div class="text_header">
-        <div class="left">
-          annie fang <br>
-          <p style="font-size:0.3em">
-            @uchicago <br>
-            vsco.co/thegoatannie
-          </p>
-        </div>
-        <div class="right">
-          fanga@uchicago.edu <br>
-          858-123-4567
-        </div>
+    <div class="text_header">
+      <div class="left">
+        annie fang <br>
+        <p style="font-size:0.3em">
+          @uchicago <br>
+          vsco.co/thegoatannie
+        </p>
       </div>
-      
-      <div class="bed">
-        classic 20 year old student who enjoys long walks by her bed, and enjoys working on her quads to have an easier time walking to bed.
-      </div>  
-      
-      <div class="image_header" style="background-image: url('IMG_5619_Original (1).jpg')"></div>
-      
-      <div class="highlights">
-        FEATURED HIGHLIGHTS FOOD
+      <div class="right">
+        fanga@uchicago.edu <br>
+        858-123-4567
       </div>
-    </main>
+    </div>
+
+    <div class="bed">
+      classic 20 year old student who enjoys long walks by her bed, and enjoys working on her quads to have an easier time walking to bed.
+    </div>  
+
+    <div class="image_header" style="background-image: url('IMG_5619_Original (1).jpg')"></div>
+
+    <div class="highlights">
+      FEATURED HIGHLIGHTS FOOD
+    </div>
+    
+  <main>
+    <div class="grid-container-1">
+      <img src="IMG_2424.jpg">
+      <img src="IMG_2419.jpg">
+    </div>
+    <div class="grid-container-2">
+      <img src="IMG_2420.jpg">
+      <img src="IMG_2416.jpg">
+      <img src="IMG_2425.jpg">
+    </div>
+    <div class="grid-container-3">
+      <img src="IMG_2422.jpg">
+      <img src="IMG_2423.jpg">
+    </div>
+    <div class="grid-container-4">
+      <img src="IMG_2418.jpg">
+      <img src="IMG_2415.jpg">
+      <img src="IMG_2417.jpg">
+    </div>
+  </main>
   </body>
 </html>
