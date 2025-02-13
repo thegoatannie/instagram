@@ -136,6 +136,29 @@
       object-position: top;
       display: block;
     }
+    
+    .photo-main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    .photo-main_horizontal {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    
+    .photos {
+      height: 80vh;
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .photos_horizontal {
+      width: 100vw;
+      height: 60vh;
+      background-size: cover;
+      background-position: center;
+    }
   
   </style>
   
@@ -188,6 +211,32 @@
   <div class="highlights" style="margin-top: 40vh;">
       PHOTOGRAPHY
   </div>
+    
+  <div class="photo-main">
+    <div class="photos" style="background-image: url('IMG_2426.jpg')"></div>
+    <div class="photos" style="background-image: url('IMG_2427 2.jpg')"></div>
+    <div class="photos" style="background-image: url('IMG_2434.jpg')"></div>
+    <div class="photos" style="background-image: url('IMG_2435.jpg')"></div>
+  </div>
+    
+  <div class="photo-main_horizontal">
+    <div class="photos_horizontal" style="background-image: url('IMG_2433.jpg')"></div>
+    <div class="photos_horizontal" style="background-image: url('IMG_2432.jpg')"></div>
+  </div>
+    
+  <div class="photo-main">
+    <div class="photos" style="background-image: url('IMG_2428.jpg')"></div>
+    <div class="photos" style="background-image: url('IMG_2429.jpg')"></div>
+    <div class="photos" style="background-image: url('IMG_2430.jpg')"></div>
+    <div class="photos" style="background-image: url('IMG_2441.jpg')"></div>
+  </div>
+  
+  <div class="photo-main_horizontal">
+    <div class="photos_horizontal" style="background-image: url('IMG_2439.jpg')"></div>
+  </div>
+   
+    
+    
     
   </body>
 </html>
