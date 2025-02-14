@@ -6,9 +6,10 @@
   </head>
   
   <style>
-      body {
-        
-      }
+    @font-face {
+      font-family: "Lucidity Expand";
+      src: url(lucidity-expand.ttf);
+    }
       
       .main-menu {
         border: 1px solid black;
@@ -151,6 +152,7 @@
       height: 80vh;
       background-size: cover;
       background-position: center;
+      position: relative;
     }
     
     .photos_horizontal {
@@ -158,6 +160,27 @@
       height: 60vh;
       background-size: cover;
       background-position: center;
+      position: relative;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    
+    .text-left {
+      position: absolute;
+      color: #4889eb;
+      padding: 2vw;
+      font-size: 2vw;
+      font-family: "Lucidity Expand", sans-serif;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+    
+    .text-right {
+      position: absolute;
+      top: 40%;
+      color: #4889eb;
+      padding: 2vw;
+      font-size: 2vw;
+      font-family: "Lucidity Expand", sans-serif;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     }
   
   </style>
@@ -213,26 +236,48 @@
   </div>
     
   <div class="photo-main">
-    <div class="photos" style="background-image: url('IMG_2426.jpg')"></div>
-    <div class="photos" style="background-image: url('IMG_2427 2.jpg')"></div>
-    <div class="photos" style="background-image: url('IMG_2434.jpg')"></div>
-    <div class="photos" style="background-image: url('IMG_2435.jpg')"></div>
+    <div class="photos" style="background-image: url('IMG_2426.jpg')">
+      <div class="text-left">OCTOBER 8, <br>2025</div>
+    </div>
+    <div class="photos" style="background-image: url('IMG_2427 2.jpg')">
+      <div class="text-right">LIKES: HIDDEN <br>SHARES: 09</div>
+    </div>
+    <div class="photos" style="background-image: url('IMG_2434.jpg')">
+      <div class="text-left">JULY 16, <br>2024</div>
+    </div>
+    <div class="photos" style="background-image: url('IMG_2435.jpg')">
+      <div class="text-right">LIKES: HIDDEN <br>SHARES: 01</div>
+    </div>
   </div>
     
   <div class="photo-main_horizontal">
-    <div class="photos_horizontal" style="background-image: url('IMG_2433.jpg')"></div>
-    <div class="photos_horizontal" style="background-image: url('IMG_2432.jpg')"></div>
+    <div class="photos_horizontal" style="background-image: url('IMG_2433.jpg')">
+      <div class="text-right">AUGUST 30<br>2024</div>
+    </div>
+    <div class="photos_horizontal" style="background-image: url('IMG_2432.jpg')">
+      <div class="text-right">AUGUST 30<br>2024</div>
+    </div>
   </div>
     
   <div class="photo-main">
-    <div class="photos" style="background-image: url('IMG_2428.jpg')"></div>
-    <div class="photos" style="background-image: url('IMG_2429.jpg')"></div>
-    <div class="photos" style="background-image: url('IMG_2430.jpg')"></div>
-    <div class="photos" style="background-image: url('IMG_2441.jpg')"></div>
+    <div class="photos" style="background-image: url('IMG_2428.jpg')">
+      <div class="text-left">NOVEMBER 22,<br>2024</div>
+    </div>
+    <div class="photos" style="background-image: url('IMG_2429.jpg')">
+      <div class="text-right">LIKES: HIDDEN <br>SHARES: 09</div>
+    </div>
+    <div class="photos" style="background-image: url('IMG_2430.jpg')">
+      <div class="text-left">NOVEMBER 2,<br>2024</div>
+    </div>
+    <div class="photos" style="background-image: url('IMG_2441.jpg')">
+      <div class="text-right">LIKES: HIDDEN <br>SHARES: 03</div>
+    </div>
   </div>
   
   <div class="photo-main_horizontal">
-    <div class="photos_horizontal" style="background-image: url('IMG_2439.jpg')"></div>
+    <div class="photos_horizontal" style="background-image: url('IMG_2439.jpg')">
+      <div class="text-right">JANUARY 21,<br>2024</div>
+    </div>
   </div>
    
     
