@@ -10,25 +10,36 @@
       font-family: "Lucidity Expand";
       src: url(lucidity-expand.ttf);
     }
+    
+    @font-face {
+      font-family: "Alta";
+      src: url(alta-regular.ttf);
+    }
       
-      .main-menu {
-        border: 1px solid black;
-        height: 50px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 2em;
-      }
-      
-      .text_header {
-        height: 50px;
-        font-size: 3em;
-        display: flex;
-        justify-content: space-between; 
-        width: 90vw;
-        margin: 0 auto;
-        padding-bottom: 10vh;
-      }
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    
+    .main-menu {
+      border: 1px solid black;
+      height: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 2em;
+    }
+
+    .text_header {
+      height: 50px;
+      font-size: 3em;
+      display: flex;
+      justify-content: space-between; 
+      width: 90vw;
+      margin: 0 auto;
+      padding-bottom: 10vh;
+    }
     
     .right {
       padding-top: 5vh;
@@ -55,9 +66,11 @@
     .highlights {
       text-align: center;
       margin: 0 auto; 
-      padding: 20vh;
-      font-size: 4em;
+      padding: 10vh;
+      font-size: 3.5em;
       width: 50vw;
+      font-family: "Alta", sans-serif;
+      letter-spacing: 0.15em;
     }
     
     main {
@@ -150,6 +163,7 @@
     
     .photos {
       height: 80vh;
+      width: 100%;
       background-size: cover;
       background-position: center;
       position: relative;
@@ -182,6 +196,16 @@
       font-family: "Lucidity Expand", sans-serif;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     }
+    
+    .bottom-menu {
+      display: flex;
+      margin-top: -2vh;
+      justify-content: space-between;
+      align-items: center; 
+      color: #4889eb;
+      font-size: 1.2em;
+    }
+      
   
   </style>
   
@@ -279,8 +303,16 @@
       <div class="text-right">JANUARY 21,<br>2024</div>
     </div>
   </div>
-   
-    
+  
+  <div class="bottom-menu">
+    <p>fanga@uchicago.edu</p> 
+    <p>comments</p> 
+    <p>notifications</p> 
+  </div>
+  
+  <div class="highlights" style="margin-top: -5vh;">
+      SHARE PROFILE
+  </div>  
     
     
   </body>
